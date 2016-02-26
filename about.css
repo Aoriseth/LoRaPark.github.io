@@ -38,13 +38,9 @@ container {
   justify-content: center;
 }
 
-li {
-  margin: 0;
-  padding: 0 10px;
-}
-
-ul {
-  display: inline;
+.p-description {
+  text-align: center;
+  padding: 20px;
 }
 
 /* FOOTER NAVIGATION */
