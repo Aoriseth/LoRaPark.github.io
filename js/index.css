@@ -18,12 +18,10 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('http://lorapark.github.io/resources/Floor_2.JPG'); 
-  height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu ul {
