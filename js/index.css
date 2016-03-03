@@ -18,10 +18,12 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 .menu ul {
@@ -61,10 +63,20 @@ body {
   padding-bottom: 25px;
   padding-left: 25px;
   padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .icon-menu i {
   margin-right: 5px;
+}
+
+.picture { 
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 
 #footer {
