@@ -4,6 +4,10 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
 }
 
 /* Initial menu */
@@ -18,12 +22,7 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg'); 
   height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
 }
 
 .menu ul {
