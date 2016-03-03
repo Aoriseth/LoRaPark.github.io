@@ -70,7 +70,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+}
+
+.picture-item {
+  margin: 10px;
+
 }
 
 #footer {
