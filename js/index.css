@@ -71,11 +71,12 @@ body {
 }
 
 .pic{
-  height:-3%;
+  height:80%;
   width:80%;
   background: url(https://raw.githubusercontent.com/LoRaPark/LoRaPark.github.io/master/parking-001-fullsize.jpg) no-repeat;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: -3%;
   background-position:top center;
   background-size:contain;
 }
