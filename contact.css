@@ -84,6 +84,11 @@ container {
   padding: 5px;
 }
 
+.blank {
+  text-align: center;
+  padding: 30px;
+}
+
 /* FOOTER NAVIGATION */
 #footer {
   font-size: 0.75rem;
